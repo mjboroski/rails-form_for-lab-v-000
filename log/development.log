@@ -205,3 +205,10 @@ Processing by SchoolClassesController#show as HTML
 Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 24.91.189.155 at 2018-07-05 18:24:08 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 20ms (Views: 10.8ms | ActiveRecord: 0.0ms)
